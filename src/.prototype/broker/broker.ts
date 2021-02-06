@@ -1,11 +1,17 @@
 import { IBroker, TMessage } from './@types/broker';
+import { Interpreter } from './interpreter';
 import SyntaxHandler from './syntaxHandler';
+import { SyntaxValidator } from './syntaxValidator';
 
 export class Broker implements IBroker {
     private _syntaxHandler: SyntaxHandler;
+    private _syntaxValidator: SyntaxValidator;
+    private _interpreter: Interpreter;
 
     constructor() {
         this._syntaxHandler = new SyntaxHandler();
+        this._syntaxValidator = new SyntaxValidator();
+        this._interpreter = new Interpreter();
     }
 
     processMessage(message: TMessage): Promise<string> {
