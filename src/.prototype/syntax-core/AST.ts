@@ -1,6 +1,6 @@
 import { IStartBlock, IActionBlock, IAST } from './@types/AST';
 import { BlockElement } from './structureElements';
-import { Context } from './context';
+import { Context } from '../context-manager/context';
 
 // ---- Top Level Blocks (Start and Action) --------------------------------------------------------
 

@@ -1,5 +1,5 @@
 import { TPrimitive } from '../@types/primitiveTypes';
-import { ArgumentElement, StatementElement } from '../structureElements';
+import { StatementElement } from '../structureElements';
 
 export namespace MiscellaneousElement {
     export class PrintElement extends StatementElement {

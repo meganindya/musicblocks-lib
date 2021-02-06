@@ -1,6 +1,4 @@
-import { TPrimitive, TPrimitiveName } from './primitiveTypes';
-import { IContext } from './context';
-import { ISymbolTable } from './symbolTable';
+import { TPrimitiveName } from './primitiveTypes';
 
 /**
  * There are two categories of syntax elements: Arguments and Instructions.

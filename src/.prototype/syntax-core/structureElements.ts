@@ -1,6 +1,6 @@
 import { TPrimitiveName, TPrimitive } from './@types/primitiveTypes';
 import * as TS from './@types/structureElements';
-import { Context } from './context';
+import { Context } from '../context-manager/context';
 import { SymbolTable } from './symbolTable';
 
 // ---- Syntax Element -----------------------------------------------------------------------------

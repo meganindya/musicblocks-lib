@@ -1,5 +1,5 @@
 import { TBoolean, TString } from '../primitiveElements';
-import { TPrimitive, TPrimitiveName } from './primitiveTypes';
+import { TPrimitive } from './primitiveTypes';
 
 export interface ISymbolTable {
     symbolExists: (symbol: TString) => TBoolean;
